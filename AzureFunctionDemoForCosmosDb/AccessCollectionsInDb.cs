@@ -88,7 +88,7 @@ namespace AzureFunctionDemoForCosmosDb
             int reservedRUs = 1000, 
             string partitionKey = "/partitionKey")
         {
-            log.Info($">>>> Create Collection {collectionId} in VinDecode Db");
+            log.Info($">>>> Create Collection {collectionId} in VinDecode Db <<<<");
             log.Info($" Throughput : {reservedRUs} RU/sec");
             log.Info($" Partition Key :{partitionKey}");
             
